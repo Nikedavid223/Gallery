@@ -1,0 +1,98 @@
+/* IMAGES */
+
+
+
+
+
+/* BASE STYLES
+---------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.3;
+    margin: 0;
+    background-color: #1d1d1d;
+    color: #eaeaea;
+    max-width: 100vw;
+    overflow-x:hidden;
+    background-color: #1d1d1d;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* TYPOGRAPHY
+---------------------------------------------- */
+h1 {
+    text-align: right;
+    font-size: 70px;
+    margin: 5em auto;
+    border-bottom: 3px solid;
+    padding-bottom: 0.5em;
+    font-family:cursive;
+    color: rgb(255, 255, 255);
+}
+/*--Grid--------------------------------------*/
+.gallery {
+   display: grid;
+   grid-column-gap:25px;
+   grid-template-columns: 1fr 1fr ;
+   padding: 25px;
+   max-width: 1200px;
+  
+   align-items: center;
+   grid-gap: 35px;
+  margin-left:300px;
+  margin-right:300px;
+  margin-top:50px;
+  margin-bottom: 100px; 
+}
+
+
+.banner{
+ min-height: 100vh;
+ width:100vw;
+ background-repeat:no-repeat;  
+ background-size:contain;
+ display:grid;
+ align-items:end;
+ justify-items:end;
+}
+
+.ferrari{ 
+    grid-column-start: 1;
+    grid-column-end:3;
+    
+
+}
+
+.interior{
+    grid-row-start: 2;
+}
+.tail{
+    grid-row-start: 2;
+}
+
+.super{
+    grid-row-start:3 ;
+    grid-column-start: 1;
+    grid-column-end:2;
+}
+
+.inside{
+    grid-row-start: 3;
+}
+
+.fast{
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
